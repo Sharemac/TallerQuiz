@@ -36,7 +36,7 @@ public class Calculadora extends JFrame{
         
         
         botones2 = new JPanel();
-        botones2.setLayout(new GridLayout(1, 3, 4, 4));
+        botones2.setLayout(new GridLayout(1, 3, 2, 2));
         espacio = new JLabel("");
             
         aux2 = new JPanel(new BorderLayout());
@@ -44,10 +44,10 @@ public class Calculadora extends JFrame{
         aux2.add(espacio,BorderLayout.WEST );
         
         botones = new JPanel();
-        botones.setLayout(new GridLayout(4, 5));
+        botones.setLayout(new GridLayout(4, 5, 1, 1));
         
         botones3 = new JPanel();
-        botones3.setLayout(new GridLayout(4, 1));
+        botones3.setLayout(new GridLayout(4, 1, 1, 1));
         
         auxb = new JPanel(new BorderLayout());
         auxb.add(botones3, BorderLayout.WEST);
